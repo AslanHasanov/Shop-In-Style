@@ -1,55 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="asset/css/bootstrap.css">
-    <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="asset/css/bootstrap.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Start Bootstrap</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-             
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Shop
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <button type="button" class="btn btn-outline-dark">
-                <i class="fa-solid fa-cart-shopping"></i>
-                Cart
-                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-            </button>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-dark">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+          <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5 text-center">
+      <h1 class="display-4 fw-bolder text-light">Shop in style</h1>
+      <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+    </div>
+  </header>
+  <section class="py-5 Cards">
+    <div class="container px-4 px-lg-5 mt-5 text-center">
+      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content mb-2">
+                <h5 class="card-bolder ">Fancy Product</h5>
+                $40.00 - $80.00
+              </div>
+              
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-4">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">View Options</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+              <div class="sale bg-dark text-white position-absolute">
+                  <span>sale</span>
+                </div>
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content">
+                <h5 class="card-bolder">Special Item</h5>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                $20.00 $18.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-0">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">Add to Card</a>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-      <header class="bg-dark py-5">
-        <div class="container px-4 px-lg-5 my-5 text-center">
-            <h1 class="display-4 fw-bolder text-light">Shop in style</h1>
-            <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <div class="sale bg-dark text-white position-absolute">
+              <span>sale</span>
+            </div>
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content mb-2">
+                <h5 class="card-bolder">Sale Item</h5>
+                $50.00 $25.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-4">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">Add to Card</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
-      <section class="py-5"></section>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content">
+                <h5 class="card-bolder">Popular Item</h5>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                $40.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-0">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">Add to Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+              <div class="sale bg-dark text-white position-absolute">
+                  <span>sale</span>
+                </div>
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content mb-2">
+                <h5 class="card-bolder">Sale Item</h5>
+                $50.00 $25.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-4">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">Add to Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content mb-2">
+                <h5 class="card-bolder">Fancy Product</h5>
+                $120.00 - $280.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-4">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">View Options</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+              <div class="sale bg-dark text-white position-absolute">
+                  <span>sale</span>
+                </div>
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content">
+                <h5 class="card-bolder">Special Item</h5>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                $20.00 $18.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-0">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">Add to Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="card-mid p-4">
+              <div class="card-content">
+                <h5 class="card-bolder">Popular Item</h5>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                $40.00
+              </div>
+            </div>
+            <div class="card-footer p-4 bg-transparent border-top-0 pt-0">
+              <div class="text-center">
+                <a class="btn btn-outline-dark" href="">Add to Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark py-5">
+    <div class="container">
+      <p class="text-center text-white m-0">Copyright © Your Website 2022</p>
+    </div>
+  </footer>
 </body>
+
 </html>

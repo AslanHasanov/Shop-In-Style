@@ -3,3 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.Cards i{
+    color:#FFC107;
+}
+.sale{
+    top: 5px;
+    right: 5px;
+    padding: 0 10px;
+    border-radius: 7px;
+    
+}
